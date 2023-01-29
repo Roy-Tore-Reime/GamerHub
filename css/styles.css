@@ -148,7 +148,7 @@ body {
 }
 
 .header-spacing {
-  grid-area: header-spacing;
+margin-top: 5px;
 }
 
 footer {
@@ -164,6 +164,7 @@ footer {
   display: flex;
   justify-content: space-around;
   flex: auto;
+  
 }
 
 .showroom-text2 {
@@ -172,18 +173,19 @@ footer {
   width: 30%;
   padding: 10px;
   color: #fff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(232, 147, 11);
+  
 }
 
 .showroom-text2 p {
-  color: black;
+  color: #f49521;
+  font-weight: bold;
 }
 
 .showroom-logo {
   display: flex;
   justify-content: space-around;
   flex: auto;
+
 }
 
 .showroom-logo-container {
@@ -191,13 +193,10 @@ footer {
   text-align: center;
   width: 30%;
   padding: 10px;
-  color: #fff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(232, 147, 11);
 }
 
 .showroom-logo-container img {
-  width: 121px;
+  width: 120px;
 }
 
 .showroom {
@@ -219,7 +218,9 @@ footer {
 
 .pick-list-container {
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .text-category-class h2 {
@@ -239,6 +240,7 @@ footer {
   justify-content: space-around;
   flex: auto;
   padding-bottom: 10%;
+
 }
 .img-category-class img {
   width: 121px;
@@ -247,6 +249,8 @@ footer {
 .img-category-class-container {
   width: 29%;
 }
+
+
 
 .scrollmenu {
   background-color: #f49521;
