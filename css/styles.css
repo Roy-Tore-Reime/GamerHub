@@ -148,7 +148,7 @@ body {
 }
 
 .header-spacing {
-margin-top: 5px;
+  margin-top: 5px;
 }
 
 footer {
@@ -164,7 +164,6 @@ footer {
   display: flex;
   justify-content: space-around;
   flex: auto;
-  
 }
 
 .showroom-text2 {
@@ -173,7 +172,6 @@ footer {
   width: 30%;
   padding: 10px;
   color: #fff;
-  
 }
 
 .showroom-text2 p {
@@ -185,7 +183,6 @@ footer {
   display: flex;
   justify-content: space-around;
   flex: auto;
-
 }
 
 .showroom-logo-container {
@@ -240,7 +237,6 @@ footer {
   justify-content: space-around;
   flex: auto;
   padding-bottom: 10%;
-
 }
 .img-category-class img {
   width: 121px;
@@ -249,8 +245,6 @@ footer {
 .img-category-class-container {
   width: 29%;
 }
-
-
 
 .scrollmenu {
   background-color: #f49521;
@@ -490,6 +484,7 @@ footer {
 /*Support page*/
 
 .support {
+  display: grid;
   position: relative;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
@@ -506,7 +501,6 @@ footer {
   color: #f49521;
   width: auto;
   margin-top: 20px;
-  
 }
 .support h3 {
   color: #f49521;
@@ -514,11 +508,52 @@ footer {
   margin-top: 20px;
 }
 
-.support input  {
+.support input {
   height: 30px;
   font-size: 20px;
   justify-content: center;
   overflow: auto;
 }
-
-
+/*my account page*/
+.myPage {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+.myPage img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.myPage p {
+  font-size: 20px;
+  color: #f49521;
+}
+.yourDescription {
+    color: #f49521;
+}
+/*payment done page*/
+.paymentDone{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    
+}
+.paymentDone h1 {
+    text-align: center;
+    color: #f49521;
+    margin-top: 20px;
+}
+.paymentDone h2 {
+    text-align: center;
+    color: rgb(13, 255, 0);
+    margin-top: 20px;
+}
+.paymentDone img {
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    width: 121px;
+}
